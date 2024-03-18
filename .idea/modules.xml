@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio10_Lamadas/Ejercicio10_Lamadas.iml" filepath="$PROJECT_DIR$/Ejercicio10_Lamadas/Ejercicio10_Lamadas.iml" />
       <module fileurl="file://$PROJECT_DIR$/Ejercicio1_Coche/Ejercicio1_Coche.iml" filepath="$PROJECT_DIR$/Ejercicio1_Coche/Ejercicio1_Coche.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio2_Trigonometria/Ejercicio2_Trigonometria.iml" filepath="$PROJECT_DIR$/Ejercicio2_Trigonometria/Ejercicio2_Trigonometria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio3_Asignaturas/Ejercicio3_Asignaturas.iml" filepath="$PROJECT_DIR$/Ejercicio3_Asignaturas/Ejercicio3_Asignaturas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio4_Banco/Ejercicio4_Banco.iml" filepath="$PROJECT_DIR$/Ejercicio4_Banco/Ejercicio4_Banco.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio5_Carrera/Ejercicio5_Carrera.iml" filepath="$PROJECT_DIR$/Ejercicio5_Carrera/Ejercicio5_Carrera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio6_Carrera_Completa/Ejercicio6_Carrera_Completa.iml" filepath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/Ejercicio6_Carrera_Completa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio7_Equipo/Ejercicio7_Equipo.iml" filepath="$PROJECT_DIR$/Ejercicio7_Equipo/Ejercicio7_Equipo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio8_Consumicion/Ejercicio8_Consumicion.iml" filepath="$PROJECT_DIR$/Ejercicio8_Consumicion/Ejercicio8_Consumicion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio9_Gasolinera/Ejercicio9_Gasolinera.iml" filepath="$PROJECT_DIR$/Ejercicio9_Gasolinera/Ejercicio9_Gasolinera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio_Base/Ejercicio_Base.iml" filepath="$PROJECT_DIR$/Ejercicio_Base/Ejercicio_Base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio_Clase_Aula/Ejercicio_Clase_Aula.iml" filepath="$PROJECT_DIR$/Ejercicio_Clase_Aula/Ejercicio_Clase_Aula.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/Ejercicio_Clase_Interfaz.iml" filepath="$PROJECT_DIR$/Ejercicio_Clase_Interfaz/Ejercicio_Clase_Interfaz.iml" />
       <module fileurl="file://$PROJECT_DIR$/ProgramacionObteto.iml" filepath="$PROJECT_DIR$/ProgramacionObteto.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/xx/ss/xcdd/xcdd.iml" filepath="$PROJECT_DIR$/src/xx/ss/xcdd/xcdd.iml" />
     </modules>

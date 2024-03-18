@@ -5,10 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3f741e-3af8-452e-8645-a4bfe887cd13" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/Ejercicio1_Coche/src/Aplicación.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1_Coche/src/Aplicación.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1_Coche/src/Coche/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1_Coche/src/Coche/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1_Coche/src/Coche/Garaje.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1_Coche/src/Coche/Garaje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio1_Coche/src/Coche/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio1_Coche/src/Coche/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/Ejercicio10_Lamadas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/Ejercicio2_Trigonometria.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Cuadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Círculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Triángulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/Ejercicio3_Asignaturas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Asignatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Profesor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Universidad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/Ejercicio4_Banco.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/src/controller_Banco/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/src/model_Banco/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio5_Carrera/Ejercicio5_Carrera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio5_Carrera/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio5_Carrera/src/model_Carrera/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/Ejercicio6_Carrera_Completa.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/src/model_Carrera/Carrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/src/model_Carrera/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio7_Equipo/Ejercicio7_Equipo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio7_Equipo/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio7_Equipo/src/model_Equipo/Equipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/Ejercicio8_Consumicion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/src/model_Consumición/Articulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/src/model_Consumición/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/Ejercicio9_Gasolinera.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Gasolinera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Surtidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_Base/Ejercicio_Base.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_Base/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_Base/src/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/Ejercicio_Clase_Aula.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/src/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/src/model_Clase/Aula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/src/model_Clase/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +71,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaLocal.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio1_Coche/src/Aplicación.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio2_Trigonometria/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Cuadrado.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Triángulo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio3_Asignaturas/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Universidad.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio6_Carrera_Completa/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio8_Consumicion/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio8_Consumicion/src/model_Consumición/Articulo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Coche.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Surtidor.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Base/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Base/src/Persona.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Aula/src/model_Clase/Usuario.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2dsKfANsWnJd1cw3yidFxr6XBA1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -42,15 +103,33 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Entrada.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-21 (3)",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/ProgramacionObjetos"
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/ProgramacionObteto",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entrada" />
+      <module name="Ejercicio5_Carrera" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Entrada" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -76,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710792553659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1710793043548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710793043548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
