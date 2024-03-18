@@ -1,5 +1,5 @@
 package Coche;
-
+//
 public class Garaje {
 
     private Coche cocheAtendido;
