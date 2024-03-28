@@ -5,55 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3f741e-3af8-452e-8645-a4bfe887cd13" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/Ejercicio10_Lamadas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/Ejercicio2_Trigonometria.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Cuadrado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Círculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio2_Trigonometria/src/model_Trigonometria/Triángulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/Ejercicio3_Asignaturas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Asignatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Profesor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio3_Asignaturas/src/model_Asignaturas/Universidad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/Ejercicio4_Banco.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/src/controller_Banco/Agenda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio4_Banco/src/model_Banco/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio5_Carrera/Ejercicio5_Carrera.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio5_Carrera/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio5_Carrera/src/model_Carrera/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/Ejercicio6_Carrera_Completa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/src/model_Carrera/Carrera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio6_Carrera_Completa/src/model_Carrera/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio7_Equipo/Ejercicio7_Equipo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio7_Equipo/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio7_Equipo/src/model_Equipo/Equipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/Ejercicio8_Consumicion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/src/model_Consumición/Articulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio8_Consumicion/src/model_Consumición/Cuenta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/Ejercicio9_Gasolinera.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Coche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Gasolinera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio9_Gasolinera/src/model_Gasolinera/Surtidor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_Base/Ejercicio_Base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_Base/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_Base/src/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/Ejercicio_Clase_Aula.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/src/model_Clase/Aula.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicio_Clase_Aula/src/model_Clase/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +28,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaLocal.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio1_Coche/src/Aplicación.java" root0="SKIP_INSPECTION" />
@@ -88,6 +45,13 @@
     <setting file="file://$PROJECT_DIR$/Ejercicio_Base/src/Entrada.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio_Base/src/Persona.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Aula/src/model_Clase/Usuario.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/src/Entrada.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/src/controller_Interfaz/Empresa.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/src/model_Interfaz/Asalariado.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/src/model_Interfaz/Jefe.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/src/model_Interfaz/Persona.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/src/model_Interfaz/Responsable.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Ejercicio_Clase_Interfaz/src/model_Interfaz/Trabajador.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -110,9 +74,9 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/ProgramacionObteto",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/ProgramacionObtetos",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
@@ -120,6 +84,19 @@
     <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrada" />
       <module name="Ejercicio5_Carrera" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ProgramacionObtetos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ProgramacionObtetos" />
+      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -163,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710793043548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1710798513670</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710798513670</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1710798662562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710798662562</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

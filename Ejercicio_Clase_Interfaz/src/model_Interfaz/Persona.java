@@ -6,10 +6,10 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 
-@AllArgsConstructor
+
 @Getter
 @Setter
-@NoArgsConstructor
+
 
 public abstract class Persona {
 

@@ -49,6 +49,8 @@ public class Centralita {
     public void mostrarCostes() {
         System.out.println("Mostrar costes acumulados : ");
         System.out.println("El coste acumulado es " +costeAcumulado);
+//con un for recorro las llamadas y pillo los costes
+      //  costeAcumulado+=(llamadasnacionales.getcoste + llamadaslocales.getcoste)
     }
     public ArrayList<LlamadaLocal> getLlamadaslocales() {
         return llamadaslocales;

@@ -39,6 +39,7 @@ public class Entrada {
                     nacional.mostrarDatos();
                     break;
                 case 5:
+                    //costes acumulados
                     break;
                 case 6:
                     System.out.println("Sayonara baby");

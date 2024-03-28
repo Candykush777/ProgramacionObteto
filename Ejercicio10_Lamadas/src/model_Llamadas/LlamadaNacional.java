@@ -8,14 +8,14 @@ public class LlamadaNacional {
 
     public LlamadaNacional() {
     }
-
+//destino constructor, char
     public LlamadaNacional(long numeroOrigen, long numeroDestino, double duracion) {
         this.numeroOrigen = numeroOrigen;
         this.numeroDestino = numeroDestino;
         this.duracion = duracion;
         this.destino=destino;
-        double costeSegundo=0;
-        if (costeSegundo =='A'){
+        double costeSegundo=0.0;
+        if (costeSegundo =='A'){//destino
             costeSegundo= 0.40;
         }
         else if (costeSegundo == 'B'){
