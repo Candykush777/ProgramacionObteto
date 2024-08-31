@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd3f741e-3af8-452e-8645-a4bfe887cd13" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AcademiaDB/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AcademiaDB/src/main/java/Entrada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AcademiaDB/src/main/java/database/DBconnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaNacional.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/AcademiaDB/src/main/java/database/DBconnection.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/Entrada.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/controller_Llamadas/Centralita.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Ejercicio10_Lamadas/src/model_Llamadas/LlamadaLocal.java" root0="SKIP_INSPECTION" />
@@ -64,22 +65,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Entrada.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Edu/Desktop/PProgramacion/ProgramacionObtetos",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Entrada.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Edu/Desktop/PProgramacion/Excepciones y Ficheros&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Entrada" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Entrada" />
