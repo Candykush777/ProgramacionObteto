@@ -19,12 +19,12 @@ public class Alumno {
     // el id se lo da la bbdd por que es autoincremental,
     // según se vayan registrando irá asignando id en numero incrementandolos .
 
-    private int telefono;
+    private int teléfono;
 
-    public Alumno(String nombre, String apellido, String correo, int telefono) {
+    public Alumno(String nombre, String apellido, String correo, int teléfono) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.correo = correo;
-        this.telefono = telefono;
+        this.teléfono = teléfono;
     }
 }
