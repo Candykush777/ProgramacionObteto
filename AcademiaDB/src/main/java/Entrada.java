@@ -8,7 +8,11 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Entrada {
-    public static void main(String[] args) {AlumnoRepository alumnoRepository = new AlumnoRepository();
+
+    public static void main(String[] args) {
+
+        AlumnoRepository alumnoRepository = new AlumnoRepository();
+
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
@@ -20,7 +24,7 @@ public class Entrada {
             System.out.println("5 - Salir");
             System.out.print("Elige una opción: ");
 
-            int opcion = -1;
+            int opcion = 0;
 
             try {
                 opcion = scanner.nextInt();
