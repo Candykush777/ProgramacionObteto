@@ -3,12 +3,11 @@ package repositories;
 import database.DBconnection;
 import model.Alumno;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 
 public class AlumnoRepository {
+
+    private Alumno alumno; // Variable de instancia para almacenar el resultado
 
     //tener todas las acciones CRUD que necesito del modelo Alumno
 
@@ -46,6 +45,8 @@ public class AlumnoRepository {
         Statement statement=null;
         PreparedStatement preparedStatement=null;
 
+        //INSERT ->
+
         try {
 
             /*
@@ -74,8 +75,10 @@ public class AlumnoRepository {
         DBconnection.closeConnection();
 
 
-        //INSERT ->
+
     }
+
+    //DELETE
 
     public void eliminarAlumno(int id) {
 
@@ -96,18 +99,85 @@ String query = "DELETE FROM alumnos WHERE id = ?";
 
             preparedStatement.close();
         } catch (SQLException e) {
-            System.out.println("Error al eliminar el alumno");
+            System.out.println("Se detecta error al eliminar el alumno");
         }
         DBconnection.closeConnection();
 
     }
+
+    //UPDATE
 
     public void actualizaralumno(Alumno alumno){
 
         connection = DBconnection.getConnection();
         PreparedStatement preparedStatement = null;
 
-        String query = ""
 
+        try {
+            String query = "UPDATE alumnos SET nombre = ?, apellido = ?, correo = ?, teléfono = ? WHERE id = ?";
+            preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setString(1, alumno.getNombre());
+            preparedStatement.setString(2, alumno.getApellido());
+            preparedStatement.setString(3, alumno.getCorreo());
+            preparedStatement.setInt(4, alumno.getTeléfono());
+            preparedStatement.setInt(5, alumno.getId());
+
+            int filasAfectadas = preparedStatement.executeUpdate();
+
+            if (filasAfectadas > 0){
+                System.out.println("Alumno actualizado satisfactoriamente");
+            }else {
+                System.out.println("No se encontró alumno con ese ID");
+            }
+            preparedStatement.close();
+
+        } catch (SQLException e) {
+            System.out.println("Error al actualizar el alumno : " + e.getMessage());
+
+        }
+        DBconnection.closeConnection();
+
+    }
+
+    //READ
+
+    public void obtenerAlumnoPorId(int id) {
+        Connection connection = null;
+        PreparedStatement preparedStatement = null;
+        ResultSet resultSet = null;
+
+        try {
+
+            connection = DBconnection.getConnection();
+
+
+            String query = "SELECT * FROM alumnos WHERE id = ?";
+            preparedStatement = connection.prepareStatement(query);
+            preparedStatement.setInt(1, id);
+
+            resultSet = preparedStatement.executeQuery();
+
+            if (resultSet.next()) {
+                alumno = new Alumno();
+                alumno.setId(resultSet.getInt("id"));
+                alumno.setNombre(resultSet.getString("nombre"));
+                alumno.setApellido(resultSet.getString("apellido"));
+                alumno.setCorreo(resultSet.getString("correo"));
+                alumno.setTeléfono(resultSet.getInt("teléfono"));
+
+                System.out.println("ID: " + alumno.getId());
+                System.out.println("Nombre: " + alumno.getNombre());
+                System.out.println("Apellido: " + alumno.getApellido());
+                System.out.println("Correo: " + alumno.getCorreo());
+                System.out.println("Teléfono: " + alumno.getTeléfono());
+
+            } else {
+                System.out.println("No se encontró el alumno con ID: " + id);
+            }
+
+        } catch (SQLException e) {
+            System.out.println("Error al obtener el alumno: " + e.getMessage());
+        }
+        DBconnection.closeConnection();
     }
 }
