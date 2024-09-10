@@ -67,12 +67,15 @@ public class AlumnoRepository {
 
         } catch (SQLException e) {
             System.out.println("fallo en al sentencia SQL");
+        }finally {
+
+            //cerrar conexion
+
+            DBconnection.closeConnection();
         }
 
 
-        //cerrar conexion
 
-        DBconnection.closeConnection();
 
 
 
@@ -101,7 +104,10 @@ String query = "DELETE FROM alumnos WHERE id = ?";
         } catch (SQLException e) {
             System.out.println("Se detecta error al eliminar el alumno");
         }
-        DBconnection.closeConnection();
+        finally {
+            DBconnection.closeConnection();
+        }
+
 
     }
 
@@ -134,8 +140,10 @@ String query = "DELETE FROM alumnos WHERE id = ?";
         } catch (SQLException e) {
             System.out.println("Error al actualizar el alumno : " + e.getMessage());
 
+        }finally {
+            DBconnection.closeConnection();
         }
-        DBconnection.closeConnection();
+
 
     }
 
@@ -177,7 +185,9 @@ String query = "DELETE FROM alumnos WHERE id = ?";
 
         } catch (SQLException e) {
             System.out.println("Error al obtener el alumno: " + e.getMessage());
+        }finally {
+            DBconnection.closeConnection();
         }
-        DBconnection.closeConnection();
+
     }
 }
