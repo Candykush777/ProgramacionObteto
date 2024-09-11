@@ -72,6 +72,7 @@ public class AlumnoRepository {
             //cerrar conexion
 
             DBconnection.closeConnection();
+            connection=null;
         }
 
 
@@ -106,6 +107,7 @@ String query = "DELETE FROM alumnos WHERE id = ?";
         }
         finally {
             DBconnection.closeConnection();
+            connection=null;
         }
 
 
@@ -142,6 +144,7 @@ String query = "DELETE FROM alumnos WHERE id = ?";
 
         }finally {
             DBconnection.closeConnection();
+            connection=null;
         }
 
 
@@ -166,7 +169,7 @@ String query = "DELETE FROM alumnos WHERE id = ?";
             resultSet = preparedStatement.executeQuery();
 
             if (resultSet.next()) {
-                alumno = new Alumno();
+
                 alumno.setId(resultSet.getInt("id"));
                 alumno.setNombre(resultSet.getString("nombre"));
                 alumno.setApellido(resultSet.getString("apellido"));
@@ -187,6 +190,7 @@ String query = "DELETE FROM alumnos WHERE id = ?";
             System.out.println("Error al obtener el alumno: " + e.getMessage());
         }finally {
             DBconnection.closeConnection();
+            connection=null;
         }
 
     }
