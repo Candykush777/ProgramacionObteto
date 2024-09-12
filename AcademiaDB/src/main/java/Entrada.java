@@ -15,7 +15,9 @@ public class Entrada {
 
         Scanner scanner = new Scanner(System.in);
 
-        while (true) {
+        int opcion = 0;
+
+        do {
             System.out.println("\nMenú:");
             System.out.println("1 - Crear (INSERT)");
             System.out.println("2 - Leer (SELECT)");
@@ -24,7 +26,7 @@ public class Entrada {
             System.out.println("5 - Salir");
             System.out.print("Elige una opción: ");
 
-            int opcion = 0;
+
 
             try {
                 opcion = scanner.nextInt();
@@ -126,15 +128,15 @@ public class Entrada {
 
                 case 5:
                     // Salir
-                    System.out.println("Saliendo...");
-                    scanner.close();
-                    System.exit(0);
+                    System.out.println("Hasta luego, Saliendo...");
+
                     break;
 
                 default:
                     System.out.println("Opción no válida. Por favor, elige una opción correcta.");
                     break;
             }
-        }
+        }while (opcion !=5);
+
     }
 }
